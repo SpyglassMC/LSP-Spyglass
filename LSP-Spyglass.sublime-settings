@@ -1,0 +1,31 @@
+{
+	// Open "Preferences: LSP Utils Settings" from the Command Palette to customize the Node runtime.
+	"command": ["${node_bin}", "${server_path}", "--stdio"],
+	"schemes": ["file"],
+	"env": {},
+	"initializationOptions": {},
+	"settings": {},
+	// ST4
+	"selector": "source.mcfunction | source.json | source.nbtdoc",
+	// ST3
+	"languages": [
+		{
+			"languageId": "mcfunction",
+			"scopes": [
+				"source.mcfunction",
+			],
+			"syntaxes": [
+				"Packages/language-mcfunction/mcfunction.tmLanguage",
+			],
+		},
+		{
+			"languageId": "json",
+			"scopes": [
+				"source.json",
+			],
+			"syntaxes": [
+				"Packages/JavaScript/JSON.sublime-syntax",
+			]
+		},
+	],
+}
