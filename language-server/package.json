@@ -1,6 +1,6 @@
 {
   "private": true,
   "dependencies": {
-    "@spyglassmc/language-server": "0.4.7"
+    "@spyglassmc/language-server": "0.4.18"
   }
 }
